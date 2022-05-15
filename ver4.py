@@ -3,7 +3,7 @@ import random
 
 title = "fightgame0501"
 
-author = "barry"
+author = "berlin"
 
 
 class Create_Role:  # 角色元素
