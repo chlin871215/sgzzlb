@@ -42,9 +42,8 @@ for i in range(len(Role)):
     else:
         teamB.append(Role[i])
 
-# for i in range(len(teamA)):
-#    print('content of', teamA[i].__dict__)
-#    print('content of', teamB[i].__dict__)
+for i in range(len(teamA)):
+    print('content of', teamA[i].__dict__)
 
 # 根據速度排序
 Role.sort(key=lambda s: s.speed, reverse=True)
